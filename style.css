@@ -8,6 +8,8 @@
     height:60px;
     background-color: #0f1111;
     color:white;
+    display:flex;
+    align-items: center;
 }
 .nav-logo{
     height:50px;
@@ -26,4 +28,39 @@
 }
 .border:hover{
     border:1.5px solid white;
+}
+/*box-2*/
+.add-fir{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color:white;
+    font-size:1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(55, 55, 55);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+
+.serach-input{
+    width: 100%;
 }
